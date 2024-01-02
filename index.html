@@ -1,14 +1,26 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-  
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Business Blog Card</title>
-  </head>
-  <body>
-    <main id="app">
-      <h1>Business Blog Card</h1>
-    </main>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Business Blog Card</title>
+  <link rel="stylesheet" href="./css/styles.css">
+  <script type="module" defer src="js/main.js"></script>
+</head>
+
+<body>
+  <main>
+    <main-card title="Perfect solution for small business" description=" Small businesses need to generate leads to grow. You can use tools like Ringy.">
+      <img slot="card-image" src="./images/hero-image-business-card.png" alt="hero-image" >
+      <card-author slot="card-author">
+        <img slot="avatar" class="avatar" src="./images/avatar-image-business-card.png" alt="avatar-image" >
+        <strong slot="name-author" class="name-author">Amy Burgess</strong>
+        <span slot="description" class="description">Customer Manger, Solution Oy</span>
+      </card-author>
+      </footer>
+    </main-card>
+  </main>
+</body>
+
 </html>
