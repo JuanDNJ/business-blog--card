@@ -19,7 +19,7 @@ export default class Card extends HTMLElement {
                 border-radius: 20px; 
                 font-size: 16px;
                 color: #677489;
-               
+                box-shadow: 0px 30px 100px 0px rgba(60, 60, 61, 0.1);
             }
             .header {
                 display: grid;
@@ -43,7 +43,7 @@ export default class Card extends HTMLElement {
                 transition: scale, 300ms linear;
             }
             .header:hover  .svg-container{
-                transform: scale(1, 1.5)  ;
+                transform: scale(1.01, 1.5)  ;
             }
             .card-body {
                 display: flex;
